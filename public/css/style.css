@@ -66,3 +66,19 @@
 .card-text p{
     font-weight: 400;
 }
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card effect */
+.card-img-overlay {
+    opacity: 0;
+  /* transition: all 0.3s ease; */
+   /* smooth transition for hover effects */
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
